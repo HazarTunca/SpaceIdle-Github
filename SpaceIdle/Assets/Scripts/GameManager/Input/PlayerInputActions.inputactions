@@ -1,0 +1,75 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "039a6072-e8e2-456f-9ad7-ce127b72306a",
+            "actions": [
+                {
+                    "name": "Windows",
+                    "type": "Button",
+                    "id": "0e6788f8-b252-40dc-9c2f-9b8e0b7bc4d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Android",
+                    "type": "Button",
+                    "id": "688f2f0c-86cf-4818-b092-69ec1e3e078a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "10caa146-c9cb-4a9b-b99c-5364e9d4c37b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Windows",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ffdc7fb7-0908-4f72-97fc-a95192ac69f0",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "Android",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "TouchScreen",
+            "bindingGroup": "TouchScreen",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
